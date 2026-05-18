@@ -8,6 +8,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-optical-sizing: auto;
+    background-color: #161616;
 }
 
 ul {
@@ -23,10 +24,12 @@ header {
     display: flex;
     padding: 10px 20px;
     box-shadow: 0 2px 5px #0000001a;
+    background-color: #000000;
 }
 
 #icono-principal {
-    width: 190px;
+    width: 55px;
+    height: 55px;
 }
 
 #titulo-principal {
@@ -80,13 +83,17 @@ a:hover {
 .li-hamburguesa,
 .li-bebida,
 .li-tragos {
-    background-color: brown;
+    background-color: #000000;
     color: white;
     width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 16px;
 }
 
 .img-producto {
-    width: 100px;
+    width: 100%;
+    height: 180px;
 }
 
 .nombre-producto {
@@ -94,16 +101,19 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
+    text-align: center;
 }
 
 .precio-producto{
     font-weight: 600;
     margin-bottom: 10px;
+    color: #ca9013;
 }
 
 .descripcion-producto {
     min-height: 110px;
     max-height: 110px;
+    color: #808080;
 }
 
 .btn-sumar-a-carrito {
@@ -133,4 +143,5 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 13px;
+    background-color: #000000;
 }
