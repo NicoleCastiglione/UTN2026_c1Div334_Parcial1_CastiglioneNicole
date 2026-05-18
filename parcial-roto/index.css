@@ -1,0 +1,136 @@
+/* --- Estilos generales --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-optical-sizing: auto;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+/* --- Estilos Header (encabezado) --- */
+header {
+    display: flex;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px #0000001a;
+}
+
+#icono-principal {
+    width: 190px;
+}
+
+#titulo-principal {
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#listado-opciones {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    padding-top: 15px;
+}
+
+a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+a:hover {
+    color: gray;
+}
+ 
+/* --- Estilos Main (contenido) --- */
+.h2-separador {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#listado-hamburguesas,
+#listado-bebidas,
+#listado-tragos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.li-hamburguesa,
+.li-bebida,
+.li-tragos {
+    background-color: brown;
+    color: white;
+    width: 250px;
+}
+
+.img-producto {
+    width: 100px;
+}
+
+.nombre-producto {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.precio-producto{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.descripcion-producto {
+    min-height: 110px;
+    max-height: 110px;
+}
+
+.btn-sumar-a-carrito {
+    padding: 5px;
+    margin-top: 15px;
+    background-color: green;
+    border-radius: 8px;
+    border: none;
+    width: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-restar-a-carrito {
+    padding: 5px;
+    margin-top: 15px;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    width: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
